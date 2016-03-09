@@ -31,6 +31,7 @@ angular.module('songhop', ['ionic', 'songhop.controllers'])
 
 
   // Set up an abstract state for the tabs directive:
+
   .state('tab', {
     url: '/tab',
     abstract: true,
@@ -59,6 +60,7 @@ angular.module('songhop', ['ionic', 'songhop.controllers'])
         }
       }
     })
+
   // If none of the above states are matched, use this as the fallback:
   $urlRouterProvider.otherwise('/tab/discover');
 
